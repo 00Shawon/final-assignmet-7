@@ -2,8 +2,8 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-        <div className='container mx-auto '>
-            <div className="navbar justify-between bg-base-100">
+        <div className='bg-white'>
+            <div className="navbar justify-between bg-base-100 container mx-auto bg-white">
                 <div className="">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -20,16 +20,16 @@ const Navbar = () => {
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">CS — Ticket System</a>
+                    <a className=" text-gray-600 font-extrabold text-xl">CS — Ticket System</a>
                 </div>
                 <div className=" hidden lg:flex ">
                     <ul className="menu menu-horizontal px-1">
-                        <li><a>Home</a></li>
-                        <li><a>FAQ</a></li>
-                        <li><a>Change Log</a></li>
-                        <li><a>Blog</a></li>
-                        <li><a>Download</a></li>
-                        <li><a>Contact</a></li>
+                        <li><a className='text-black'>Home</a></li>
+                        <li><a className='text-black'>FAQ</a></li>
+                        <li><a className='text-black'>Change Log</a></li>
+                        <li><a className='text-black'>Blog</a></li>
+                        <li><a className='text-black'>Download</a></li>
+                        <li><a className='text-black'>Contact</a></li>
                     </ul>
                     <a className="btn text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2]">+ New Ticket</a>
                 </div>

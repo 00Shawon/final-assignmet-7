@@ -6,7 +6,7 @@ const StatusCard = ({ countProgress, resolvedCount }) => {
   return (
     <Container>
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-[100px] mx-[35px] justify-between">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 py-[50px] mx-[35px] justify-between">
           <div className="h-[250px] rounded-sm flex gap-5 flex-col items-center justify-center bg-gradient-to-bl from-[#632EE3] to-[#9F62F2] ">
             <img
               className="absolute left-[40px]"
@@ -43,6 +43,7 @@ const StatusCard = ({ countProgress, resolvedCount }) => {
           </div>
         </div>
       </div>
+
     </Container>
   );
 };
