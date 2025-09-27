@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className='bg-white'>
-            <div className="navbar justify-between bg-base-100 container mx-auto bg-white">
+            <div className="navbar justify-between container mx-auto bg-white">
                 <div className="">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
